@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TokoLAKU</string>
+    <string name="Postingan">Postingan</string>
+    <string name="Jumlah_postingan">550</string>
+    <string name="pengikut">Pengikut</string>
+    <string name="Jumlah_pengikut">800K</string>
+    <string name="mengikuti">Mengikuti</string>
+    <string name="Jumlah_mengikuti">200K</string>
+    <string name="mengikuti_button">Mengikuti</string>
+    <string name="Button_pesan">Pesan</string>
+    <string name="Nama">Dedi Hengki</string>
+    <string name="Deskripsi">Teknik Informatika, Poltieknik Negeri Ketapang</string>
+</resources>
