@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.dedihengki.tokolaku" >
+    package="com.dedihengki.tokolaku">
 
     <application
         android:allowBackup="true"
@@ -8,13 +8,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.TokoLAKU" >
-        <activity android:name=".ParcalActivity" >
-        </activity>
+        android:theme="@style/Theme.TokoLAKU">
+        <activity android:name=".ResultActivity"></activity>
+        <activity android:name=".ParcalActivity"></activity>
         <activity android:name=".ExplicitIntentActivity" />
         <activity android:name=".ExplicitActivity" />
         <activity android:name=".SimpleActivity" />
-        <activity android:name=".MainActivity" >
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
