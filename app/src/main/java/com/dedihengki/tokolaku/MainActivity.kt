@@ -1,6 +1,7 @@
 package com.dedihengki.tokolaku
 
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -19,6 +20,11 @@ class MainActivity : AppCompatActivity() {
         btn_intent_with_data.setOnClickListener {
             val dataIntent = Intent(this@MainActivity,  ExplicitIntentActivity::class.java)
             startActivity(dataIntent)
+        }
+        btn_implicit_intent.setOnClickListener {
+            val phoneNumber ="08637672362727"
+            val intent = Intent(Intent.ACTION_DIAL, Uri.parse("tel:$phoneNumber"))
+            startActivity(intent)
         }
     }
 }
