@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TokoLAKU">
-        <activity android:name=".ExplicitActivity"></activity>
+        <activity android:name=".ExplicitIntentActivity"></activity>
+        <activity android:name=".ExplicitActivity" />
         <activity android:name=".SimpleActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
